@@ -1,11 +1,16 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "personned_aides.h"
+#include <QIntValidator>
+#include <QMessageBox>
+#include <QIntValidator>
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    //ui->lineEdit_id_a->setValidator(new QIntValidator(0, 99999, this));
+ui->afficher_personne->setModel(P.afficher());
 }
 
 MainWindow::~MainWindow()

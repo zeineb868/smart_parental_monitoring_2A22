@@ -1,6 +1,7 @@
 #include "personned_aides.h"
 #include<QSqlQuery>
 #include<QtDebug>
+#include<QObject>
 Personned_aides::Personned_aides()
 {
     identifiant=0;
@@ -41,4 +42,19 @@ bool Personned_aides::ajouter()
          query.bindValue(":prix_heure", prix_heure_string);
 
     return  query.exec();
+}
+QSqlQueryModel* Personned_aides::afficher()
+{
+
+   QSqlQueryModel *model = new QSqlQueryModel;
+        model->setQuery("SELECT * FROM personne");
+        model->setHeaderData(0, Qt::Horizontal, QObject::tr("identifiant"));
+        model->setHeaderData(1, Qt::Horizontal, QObject::tr("nom"));
+        model->setHeaderData(2, Qt::Horizontal, QObject::tr("prenom"));
+        model->setHeaderData(3, Qt::Horizontal, QObject::tr("adresse"));
+        model->setHeaderData(4, Qt::Horizontal, QObject::tr("email"));
+        model->setHeaderData(5, Qt::Horizontal, QObject::tr("métier"));
+        model->setHeaderData(6, Qt::Horizontal, QObject::tr("num_tel"));
+        model->setHeaderData(7, Qt::Horizontal, QObject::tr("prix_heure"));
+   return  model;
 }

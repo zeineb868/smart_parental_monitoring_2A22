@@ -151,7 +151,7 @@ QTabBar::tab:selected {
 }</string>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="Ajouter_E_3">
        <attribute name="title">
@@ -533,80 +533,15 @@ selection-background-color: gray;</string>
        <attribute name="title">
         <string>Afficher</string>
        </attribute>
-       <widget class="QTableWidget" name="affiche_personne">
+       <widget class="QTableView" name="afficher_personne">
         <property name="geometry">
          <rect>
-          <x>0</x>
-          <y>10</y>
-          <width>1001</width>
-          <height>401</height>
+          <x>30</x>
+          <y>20</y>
+          <width>951</width>
+          <height>381</height>
          </rect>
         </property>
-        <attribute name="horizontalHeaderCascadingSectionResizes">
-         <bool>true</bool>
-        </attribute>
-        <attribute name="horizontalHeaderHighlightSections">
-         <bool>true</bool>
-        </attribute>
-        <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
-         <bool>true</bool>
-        </attribute>
-        <attribute name="horizontalHeaderStretchLastSection">
-         <bool>true</bool>
-        </attribute>
-        <attribute name="verticalHeaderShowSortIndicator" stdset="0">
-         <bool>true</bool>
-        </attribute>
-        <column>
-         <property name="text">
-          <string>identifiant</string>
-         </property>
-        </column>
-        <column>
-         <property name="text">
-          <string>nom</string>
-         </property>
-        </column>
-        <column>
-         <property name="text">
-          <string>prénom</string>
-         </property>
-        </column>
-        <column>
-         <property name="text">
-          <string>email</string>
-         </property>
-        </column>
-        <column>
-         <property name="text">
-          <string>adresse</string>
-         </property>
-        </column>
-        <column>
-         <property name="text">
-          <string>métier</string>
-         </property>
-        </column>
-        <column>
-         <property name="text">
-          <string>prix/heure</string>
-         </property>
-        </column>
-        <column>
-         <property name="text">
-          <string>numéro</string>
-         </property>
-        </column>
-        <column>
-         <property name="text">
-          <string>modifier</string>
-         </property>
-        </column>
-        <column>
-         <property name="text">
-          <string>supprimer</string>
-         </property>
-        </column>
        </widget>
       </widget>
       <widget class="QWidget" name="tab_2">

@@ -2,12 +2,14 @@
 #define PERSONNED_AIDES_H
 
 #include<QString>
+#include<QSqlQueryModel>
 class Personned_aides
 {
 public:
     Personned_aides();
      Personned_aides(int,QString,QString,QString,QString,QString,int,int);
      bool ajouter();
+     QSqlQueryModel* afficher();
          int Getidentifiant() { return identifiant; }
             void Setidentifiant(int val) { this->identifiant = val; }
             QString Getnom() { return nom; }
