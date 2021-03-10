@@ -320,7 +320,7 @@ text-align:center;</string>
          <bool>true</bool>
         </property>
        </widget>
-       <widget class="QLineEdit" name="lineEdit_id">
+       <widget class="QLineEdit" name="lineEdit_id_a">
         <property name="geometry">
          <rect>
           <x>270</x>
@@ -337,7 +337,7 @@ background: white;
 selection-background-color: gray;</string>
         </property>
        </widget>
-       <widget class="QLineEdit" name="lineEdit_nom">
+       <widget class="QLineEdit" name="lineEdit_nom_a">
         <property name="geometry">
          <rect>
           <x>270</x>
@@ -354,7 +354,7 @@ background: white;
 selection-background-color: gray;</string>
         </property>
        </widget>
-       <widget class="QLineEdit" name="lineEdit_pernom">
+       <widget class="QLineEdit" name="lineEdit_pernom_a">
         <property name="geometry">
          <rect>
           <x>650</x>
@@ -371,7 +371,7 @@ background: white;
 selection-background-color: gray;</string>
         </property>
        </widget>
-       <widget class="QLineEdit" name="lineEdit_email">
+       <widget class="QLineEdit" name="lineEdit_email_a">
         <property name="geometry">
          <rect>
           <x>270</x>
@@ -410,7 +410,7 @@ font: bold, &quot;Comic Sans MS&quot;;
          <string>Ajouter</string>
         </property>
        </widget>
-       <widget class="QLineEdit" name="lineEdit_num_tel">
+       <widget class="QLineEdit" name="lineEdit_num_tel_a">
         <property name="geometry">
          <rect>
           <x>650</x>
@@ -477,7 +477,7 @@ text-align:center;</string>
          <bool>true</bool>
         </property>
        </widget>
-       <widget class="QLineEdit" name="lineEdit_metier">
+       <widget class="QLineEdit" name="lineEdit_metier_a">
         <property name="geometry">
          <rect>
           <x>270</x>
@@ -494,7 +494,7 @@ background: white;
 selection-background-color: gray;</string>
         </property>
        </widget>
-       <widget class="QLineEdit" name="lineEdit_prix_heure">
+       <widget class="QLineEdit" name="lineEdit_prix_heure_a">
         <property name="geometry">
          <rect>
           <x>650</x>
@@ -511,7 +511,7 @@ background: white;
 selection-background-color: gray;</string>
         </property>
        </widget>
-       <widget class="QLineEdit" name="lineEdit_adresse">
+       <widget class="QLineEdit" name="lineEdit_adresse_a">
         <property name="geometry">
          <rect>
           <x>650</x>

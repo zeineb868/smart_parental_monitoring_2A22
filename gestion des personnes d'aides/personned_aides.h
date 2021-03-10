@@ -6,23 +6,24 @@ class Personned_aides
 {
 public:
     Personned_aides();
-     Personned_aides(int,QString,QString,QString,QString,QString,float,long);
+     Personned_aides(int,QString,QString,QString,QString,QString,int,int);
+     bool ajouter();
          int Getidentifiant() { return identifiant; }
-            void Setidentifiant(int val) { identifiant = val; }
+            void Setidentifiant(int val) { this->identifiant = val; }
             QString Getnom() { return nom; }
-            void Setnom(QString val) { nom = val; }
+            void Setnom(QString val) { this->nom = val; }
             QString Getprenom() { return prenom; }
-            void Setprenom(QString val) { prenom = val; }
+            void Setprenom(QString val) { this->prenom = val; }
             QString Getadresse() { return adresse; }
-            void Setadresse(QString val) { adresse = val; }
+            void Setadresse(QString val) { this->adresse = val; }
             QString Getemail() { return email; }
-            void Setemail(QString val) { email = val; }
+            void Setemail(QString val) { this->email = val; }
             QString Getmetier() { return metier; }
-            void Setmetier(QString val) { metier = val; }
-            float Getprix_heure() { return prix_heure; }
-            void Setprix_heure(float val) { prix_heure = val; }
-            long Getnum_tel() { return num_tel; }
-            void Setnum_tel(long val) { num_tel = val; }
+            void Setmetier(QString val) { this->metier = val; }
+            int Getprix_heure() { return prix_heure; }
+            void Setprix_heure(int val) { this->prix_heure = val; }
+            int Getnum_tel() { return num_tel; }
+            void Setnum_tel(int val) {this-> num_tel = val; }
 private:
     int identifiant;
             QString nom;
@@ -30,8 +31,8 @@ private:
             QString  adresse;
             QString  email;
             QString  metier;
-            float prix_heure;
-            long num_tel;
+            int prix_heure;
+            int num_tel;
 };
 
 #endif // PERSONNED_AIDES_H

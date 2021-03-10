@@ -1,6 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-
+#include "personned_aides.h"
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
@@ -15,5 +15,14 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_Ajouter_Employe_3_clicked()
 {
-
+    int identifiant=ui->lineEdit_id_a->text().toInt();
+    QString nom=ui->lineEdit_nom_a->text();
+    QString prenom=ui->lineEdit_pernom_a->text();
+    QString adresse=ui->lineEdit_adresse_a->text();
+     QString email=ui->lineEdit_email_a->text();
+      QString metier=ui->lineEdit_metier_a->text();
+      int prix_heure =ui->lineEdit_prix_heure_a->text().toInt();
+      int num_tel =ui->lineEdit_num_tel_a->text().toInt();
+Personned_aides P(identifiant,nom,prenom,adresse,email,metier,num_tel,prix_heure);
+P.ajouter();
 }
