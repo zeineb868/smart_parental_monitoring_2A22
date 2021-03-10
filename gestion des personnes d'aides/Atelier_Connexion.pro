@@ -29,16 +29,15 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
     connection.cpp \
-    personnedaide.cpp
+    personned_aides.cpp
 
 HEADERS += \
         mainwindow.h \
     connection.h \
-    personnedaide.h
+    personned_aides.h
 
 FORMS += \
-        mainwindow.ui \
-        personnedaide.ui
+        mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

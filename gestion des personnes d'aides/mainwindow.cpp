@@ -12,3 +12,8 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+void MainWindow::on_Ajouter_Employe_3_clicked()
+{
+
+}

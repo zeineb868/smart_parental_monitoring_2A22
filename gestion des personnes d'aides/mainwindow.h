@@ -15,6 +15,9 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void on_Ajouter_Employe_3_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
