@@ -151,7 +151,7 @@ QTabBar::tab:selected {
 }</string>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="Ajouter_E_3">
        <attribute name="title">
@@ -160,9 +160,9 @@ QTabBar::tab:selected {
        <widget class="QLineEdit" name="identifiant">
         <property name="geometry">
          <rect>
-          <x>90</x>
-          <y>40</y>
-          <width>113</width>
+          <x>92</x>
+          <y>90</y>
+          <width>181</width>
           <height>20</height>
          </rect>
         </property>
@@ -198,9 +198,9 @@ text-align:center;
        <widget class="QLineEdit" name="nom">
         <property name="geometry">
          <rect>
-          <x>90</x>
-          <y>90</y>
-          <width>113</width>
+          <x>92</x>
+          <y>140</y>
+          <width>181</width>
           <height>20</height>
          </rect>
         </property>
@@ -223,9 +223,9 @@ text-align:center;</string>
        <widget class="QLineEdit" name="prenom">
         <property name="geometry">
          <rect>
-          <x>440</x>
-          <y>90</y>
-          <width>113</width>
+          <x>510</x>
+          <y>160</y>
+          <width>181</width>
           <height>20</height>
          </rect>
         </property>
@@ -248,9 +248,9 @@ text-align:center;</string>
        <widget class="QLineEdit" name="email">
         <property name="geometry">
          <rect>
-          <x>90</x>
-          <y>140</y>
-          <width>113</width>
+          <x>92</x>
+          <y>190</y>
+          <width>181</width>
           <height>20</height>
          </rect>
         </property>
@@ -273,9 +273,9 @@ text-align:center;</string>
        <widget class="QLineEdit" name="numero_tel">
         <property name="geometry">
          <rect>
-          <x>440</x>
-          <y>140</y>
-          <width>171</width>
+          <x>510</x>
+          <y>220</y>
+          <width>181</width>
           <height>20</height>
          </rect>
         </property>
@@ -298,9 +298,9 @@ text-align:center;</string>
        <widget class="QLineEdit" name="mteier">
         <property name="geometry">
          <rect>
-          <x>90</x>
-          <y>190</y>
-          <width>113</width>
+          <x>92</x>
+          <y>310</y>
+          <width>181</width>
           <height>20</height>
          </rect>
         </property>
@@ -323,9 +323,9 @@ text-align:center;</string>
        <widget class="QLineEdit" name="lineEdit_id_a">
         <property name="geometry">
          <rect>
-          <x>270</x>
-          <y>40</y>
-          <width>113</width>
+          <x>310</x>
+          <y>90</y>
+          <width>181</width>
           <height>20</height>
          </rect>
         </property>
@@ -340,9 +340,9 @@ selection-background-color: gray;</string>
        <widget class="QLineEdit" name="lineEdit_nom_a">
         <property name="geometry">
          <rect>
-          <x>270</x>
-          <y>90</y>
-          <width>113</width>
+          <x>300</x>
+          <y>140</y>
+          <width>191</width>
           <height>20</height>
          </rect>
         </property>
@@ -357,9 +357,9 @@ selection-background-color: gray;</string>
        <widget class="QLineEdit" name="lineEdit_pernom_a">
         <property name="geometry">
          <rect>
-          <x>650</x>
-          <y>90</y>
-          <width>113</width>
+          <x>720</x>
+          <y>160</y>
+          <width>221</width>
           <height>20</height>
          </rect>
         </property>
@@ -374,9 +374,9 @@ selection-background-color: gray;</string>
        <widget class="QLineEdit" name="lineEdit_email_a">
         <property name="geometry">
          <rect>
-          <x>270</x>
-          <y>140</y>
-          <width>113</width>
+          <x>302</x>
+          <y>190</y>
+          <width>191</width>
           <height>20</height>
          </rect>
         </property>
@@ -391,9 +391,9 @@ selection-background-color: gray;</string>
        <widget class="QPushButton" name="Ajouter_Employe_3">
         <property name="geometry">
          <rect>
-          <x>720</x>
-          <y>250</y>
-          <width>75</width>
+          <x>520</x>
+          <y>360</y>
+          <width>341</width>
           <height>23</height>
          </rect>
         </property>
@@ -413,9 +413,9 @@ font: bold, &quot;Comic Sans MS&quot;;
        <widget class="QLineEdit" name="lineEdit_num_tel_a">
         <property name="geometry">
          <rect>
-          <x>650</x>
-          <y>140</y>
-          <width>113</width>
+          <x>720</x>
+          <y>220</y>
+          <width>221</width>
           <height>20</height>
          </rect>
         </property>
@@ -430,9 +430,9 @@ selection-background-color: gray;</string>
        <widget class="QLineEdit" name="adresse">
         <property name="geometry">
          <rect>
-          <x>440</x>
-          <y>40</y>
-          <width>113</width>
+          <x>92</x>
+          <y>250</y>
+          <width>181</width>
           <height>20</height>
          </rect>
         </property>
@@ -455,9 +455,9 @@ text-align:center;</string>
        <widget class="QLineEdit" name="prix_heure">
         <property name="geometry">
          <rect>
-          <x>440</x>
-          <y>190</y>
-          <width>113</width>
+          <x>510</x>
+          <y>280</y>
+          <width>181</width>
           <height>20</height>
          </rect>
         </property>
@@ -480,9 +480,9 @@ text-align:center;</string>
        <widget class="QLineEdit" name="lineEdit_metier_a">
         <property name="geometry">
          <rect>
-          <x>270</x>
-          <y>190</y>
-          <width>113</width>
+          <x>300</x>
+          <y>310</y>
+          <width>191</width>
           <height>20</height>
          </rect>
         </property>
@@ -497,9 +497,9 @@ selection-background-color: gray;</string>
        <widget class="QLineEdit" name="lineEdit_prix_heure_a">
         <property name="geometry">
          <rect>
-          <x>650</x>
-          <y>200</y>
-          <width>113</width>
+          <x>720</x>
+          <y>280</y>
+          <width>221</width>
           <height>20</height>
          </rect>
         </property>
@@ -514,9 +514,9 @@ selection-background-color: gray;</string>
        <widget class="QLineEdit" name="lineEdit_adresse_a">
         <property name="geometry">
          <rect>
-          <x>650</x>
-          <y>40</y>
-          <width>113</width>
+          <x>300</x>
+          <y>250</y>
+          <width>191</width>
           <height>20</height>
          </rect>
         </property>
