@@ -17,6 +17,7 @@ public:
 
 private slots:
     void on_Ajouter_Employe_3_clicked();
+    void on_supprimer_clicked();
 
 private:
     Ui::MainWindow *ui;

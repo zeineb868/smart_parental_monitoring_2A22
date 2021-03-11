@@ -10,6 +10,7 @@ public:
      Personned_aides(int,QString,QString,QString,QString,QString,int,int);
      bool ajouter();
      QSqlQueryModel* afficher();
+     bool supprimer(int);
          int Getidentifiant() { return identifiant; }
             void Setidentifiant(int val) { this->identifiant = val; }
             QString Getnom() { return nom; }

@@ -43,18 +43,29 @@ bool Personned_aides::ajouter()
 
     return  query.exec();
 }
+bool Personned_aides::supprimer(int identifiant)
+{
+
+    QSqlQuery query;
+
+     query.prepare(" delete from personne where identifiant=:identifiant ");
+     query.bindValue(":identifiant", identifiant);
+
+
+    return  query.exec();
+}
 QSqlQueryModel* Personned_aides::afficher()
 {
 
    QSqlQueryModel *model = new QSqlQueryModel;
         model->setQuery("SELECT * FROM personne");
-        model->setHeaderData(0, Qt::Horizontal, QObject::tr("identifiant"));
-        model->setHeaderData(1, Qt::Horizontal, QObject::tr("nom"));
-        model->setHeaderData(2, Qt::Horizontal, QObject::tr("prenom"));
-        model->setHeaderData(3, Qt::Horizontal, QObject::tr("adresse"));
-        model->setHeaderData(4, Qt::Horizontal, QObject::tr("email"));
-        model->setHeaderData(5, Qt::Horizontal, QObject::tr("métier"));
-        model->setHeaderData(6, Qt::Horizontal, QObject::tr("num_tel"));
-        model->setHeaderData(7, Qt::Horizontal, QObject::tr("prix_heure"));
+        model->setHeaderData(0, Qt::Horizontal, QObject::tr("Identifiant"));
+        model->setHeaderData(1, Qt::Horizontal, QObject::tr("Nom"));
+        model->setHeaderData(2, Qt::Horizontal, QObject::tr("Prenom"));
+        model->setHeaderData(3, Qt::Horizontal, QObject::tr("Adresse"));
+        model->setHeaderData(4, Qt::Horizontal, QObject::tr("Email"));
+        model->setHeaderData(5, Qt::Horizontal, QObject::tr("Métier"));
+        model->setHeaderData(6, Qt::Horizontal, QObject::tr("numéro"));
+        model->setHeaderData(7, Qt::Horizontal, QObject::tr("prix par heure"));
    return  model;
 }
