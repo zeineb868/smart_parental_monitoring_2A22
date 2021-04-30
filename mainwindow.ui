@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>2</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
@@ -1143,247 +1143,15 @@ selection-background-color: gray;</string>
      <widget class="QTabWidget" name="tabWidget_4">
       <property name="geometry">
        <rect>
-        <x>0</x>
-        <y>0</y>
+        <x>-10</x>
+        <y>-10</y>
         <width>981</width>
         <height>421</height>
        </rect>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
-      <widget class="QWidget" name="tab_7">
-       <attribute name="title">
-        <string>ajouter commande</string>
-       </attribute>
-       <widget class="QLineEdit" name="lineEdit_10">
-        <property name="geometry">
-         <rect>
-          <x>30</x>
-          <y>40</y>
-          <width>113</width>
-          <height>22</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">border: 2px solid black;
-font:8pt &quot;MS Shell Dlg 2&quot; ;
-border-radius: 10px;
-padding: 0 8px;
-color:rgb(255, 255, 255);
-background: #085394;
-selection-background-color: gray;</string>
-        </property>
-        <property name="text">
-         <string>ID commande</string>
-        </property>
-       </widget>
-       <widget class="QLineEdit" name="lineEdit_12">
-        <property name="geometry">
-         <rect>
-          <x>30</x>
-          <y>90</y>
-          <width>113</width>
-          <height>22</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">border: 2px solid black;
-font:8pt &quot;MS Shell Dlg 2&quot; ;
-border-radius: 10px;
-padding: 0 8px;
-color:rgb(255, 255, 255);
-background: #085394;
-selection-background-color: gray;</string>
-        </property>
-        <property name="text">
-         <string>ID fournisseur</string>
-        </property>
-       </widget>
-       <widget class="QLineEdit" name="lineEdit_14">
-        <property name="geometry">
-         <rect>
-          <x>30</x>
-          <y>130</y>
-          <width>113</width>
-          <height>22</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">border: 2px solid black;
-font:8pt &quot;MS Shell Dlg 2&quot; ;
-border-radius: 10px;
-padding: 0 8px;
-color:rgb(255, 255, 255);
-background: #085394;
-selection-background-color: gray;</string>
-        </property>
-        <property name="text">
-         <string>ID produit</string>
-        </property>
-       </widget>
-       <widget class="QLineEdit" name="lineEdit_16">
-        <property name="geometry">
-         <rect>
-          <x>30</x>
-          <y>180</y>
-          <width>113</width>
-          <height>22</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">border: 2px solid black;
-font:8pt &quot;MS Shell Dlg 2&quot; ;
-border-radius: 10px;
-padding: 0 8px;
-color:rgb(255, 255, 255);
-background: #085394;
-selection-background-color: gray;</string>
-        </property>
-        <property name="text">
-         <string>Montant</string>
-        </property>
-       </widget>
-       <widget class="QLineEdit" name="lineEdit_21">
-        <property name="geometry">
-         <rect>
-          <x>30</x>
-          <y>230</y>
-          <width>113</width>
-          <height>22</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">border: 2px solid black;
-font:8pt &quot;MS Shell Dlg 2&quot; ;
-border-radius: 10px;
-padding: 0 8px;
-color:rgb(255, 255, 255);
-background: #085394;
-selection-background-color: gray;</string>
-        </property>
-        <property name="text">
-         <string>Adresse</string>
-        </property>
-       </widget>
-       <widget class="QLineEdit" name="lineEdit_idc">
-        <property name="geometry">
-         <rect>
-          <x>180</x>
-          <y>40</y>
-          <width>113</width>
-          <height>22</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">border: 2px solid black;
-font:8pt &quot;MS Shell Dlg 2&quot; ;
-border-radius: 10px;
-padding: 0 8px;
-color:black;
-background: white;
-selection-background-color: gray;</string>
-        </property>
-       </widget>
-       <widget class="QLineEdit" name="lineEdit_montant">
-        <property name="geometry">
-         <rect>
-          <x>180</x>
-          <y>180</y>
-          <width>113</width>
-          <height>22</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">border: 2px solid black;
-font:8pt &quot;MS Shell Dlg 2&quot; ;
-border-radius: 10px;
-padding: 0 8px;
-color:black;
-background: white;
-selection-background-color: gray;</string>
-        </property>
-       </widget>
-       <widget class="QLineEdit" name="lineEdit_adresseC">
-        <property name="geometry">
-         <rect>
-          <x>180</x>
-          <y>230</y>
-          <width>113</width>
-          <height>22</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">border: 2px solid black;
-font:8pt &quot;MS Shell Dlg 2&quot; ;
-border-radius: 10px;
-padding: 0 8px;
-color:black;
-background: white;
-selection-background-color: gray;</string>
-        </property>
-       </widget>
-       <widget class="QComboBox" name="fournisseur">
-        <property name="geometry">
-         <rect>
-          <x>180</x>
-          <y>90</y>
-          <width>111</width>
-          <height>22</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">border: 2px solid black;
-font:8pt &quot;MS Shell Dlg 2&quot; ;
-border-radius: 10px;
-padding: 0 8px;
-color:black;
-background: white;
-selection-background-color: gray;</string>
-        </property>
-       </widget>
-       <widget class="QComboBox" name="produit">
-        <property name="geometry">
-         <rect>
-          <x>180</x>
-          <y>130</y>
-          <width>111</width>
-          <height>22</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">border: 2px solid black;
-font:8pt &quot;MS Shell Dlg 2&quot; ;
-border-radius: 10px;
-padding: 0 8px;
-color:black;
-background: white;
-selection-background-color: gray;</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="ajout_commande">
-        <property name="geometry">
-         <rect>
-          <x>520</x>
-          <y>160</y>
-          <width>191</width>
-          <height>28</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">border: 2px solid black;
-font:8pt &quot;MS Shell Dlg 2&quot; ;
-border-radius: 10px;
-padding: 0 8px;
-color:black;
-background: yellow;
-selection-background-color: gray;</string>
-        </property>
-        <property name="text">
-         <string>Ajouter commande</string>
-        </property>
-       </widget>
-      </widget>
       <widget class="QWidget" name="tab_8">
        <attribute name="title">
         <string>afficher commande</string>
@@ -1766,6 +1534,238 @@ selection-background-color: gray;</string>
         </property>
         <property name="text">
          <string>PDF</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_7">
+       <attribute name="title">
+        <string>ajouter commande</string>
+       </attribute>
+       <widget class="QLineEdit" name="lineEdit_10">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>40</y>
+          <width>113</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 2px solid black;
+font:8pt &quot;MS Shell Dlg 2&quot; ;
+border-radius: 10px;
+padding: 0 8px;
+color:rgb(255, 255, 255);
+background: #085394;
+selection-background-color: gray;</string>
+        </property>
+        <property name="text">
+         <string>ID commande</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_12">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>90</y>
+          <width>113</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 2px solid black;
+font:8pt &quot;MS Shell Dlg 2&quot; ;
+border-radius: 10px;
+padding: 0 8px;
+color:rgb(255, 255, 255);
+background: #085394;
+selection-background-color: gray;</string>
+        </property>
+        <property name="text">
+         <string>ID fournisseur</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_14">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>130</y>
+          <width>113</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 2px solid black;
+font:8pt &quot;MS Shell Dlg 2&quot; ;
+border-radius: 10px;
+padding: 0 8px;
+color:rgb(255, 255, 255);
+background: #085394;
+selection-background-color: gray;</string>
+        </property>
+        <property name="text">
+         <string>ID produit</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_16">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>180</y>
+          <width>113</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 2px solid black;
+font:8pt &quot;MS Shell Dlg 2&quot; ;
+border-radius: 10px;
+padding: 0 8px;
+color:rgb(255, 255, 255);
+background: #085394;
+selection-background-color: gray;</string>
+        </property>
+        <property name="text">
+         <string>Montant</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_21">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>230</y>
+          <width>113</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 2px solid black;
+font:8pt &quot;MS Shell Dlg 2&quot; ;
+border-radius: 10px;
+padding: 0 8px;
+color:rgb(255, 255, 255);
+background: #085394;
+selection-background-color: gray;</string>
+        </property>
+        <property name="text">
+         <string>Adresse</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_idc">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>40</y>
+          <width>113</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 2px solid black;
+font:8pt &quot;MS Shell Dlg 2&quot; ;
+border-radius: 10px;
+padding: 0 8px;
+color:black;
+background: white;
+selection-background-color: gray;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_montant">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>180</y>
+          <width>113</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 2px solid black;
+font:8pt &quot;MS Shell Dlg 2&quot; ;
+border-radius: 10px;
+padding: 0 8px;
+color:black;
+background: white;
+selection-background-color: gray;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_adresseC">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>230</y>
+          <width>113</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 2px solid black;
+font:8pt &quot;MS Shell Dlg 2&quot; ;
+border-radius: 10px;
+padding: 0 8px;
+color:black;
+background: white;
+selection-background-color: gray;</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="fournisseur">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>90</y>
+          <width>111</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 2px solid black;
+font:8pt &quot;MS Shell Dlg 2&quot; ;
+border-radius: 10px;
+padding: 0 8px;
+color:black;
+background: white;
+selection-background-color: gray;</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="produit">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>130</y>
+          <width>111</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 2px solid black;
+font:8pt &quot;MS Shell Dlg 2&quot; ;
+border-radius: 10px;
+padding: 0 8px;
+color:black;
+background: white;
+selection-background-color: gray;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="ajout_commande">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>160</y>
+          <width>191</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border: 2px solid black;
+font:8pt &quot;MS Shell Dlg 2&quot; ;
+border-radius: 10px;
+padding: 0 8px;
+color:black;
+background: yellow;
+selection-background-color: gray;</string>
+        </property>
+        <property name="text">
+         <string>Ajouter commande</string>
         </property>
        </widget>
       </widget>

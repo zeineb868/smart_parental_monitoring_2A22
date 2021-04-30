@@ -475,8 +475,6 @@ void MainWindow::on_impdos_2_clicked()
 
 
 
-
-
 void MainWindow::on_excel_clicked()
 {
     commande E;
@@ -507,7 +505,7 @@ void MainWindow::on_excel_clicked()
         csvfile.close();
 }
 
-/*void MainWindow::on_pdf_clicked()
+void MainWindow::on_pdf_clicked()
 {
 QPdfWriter pdf("/home/minuvahard/comande.pdf");
 QPainter painter(&pdf);
@@ -546,4 +544,4 @@ painter.drawText(100,400,"Commande pour la famille Bouayed");
             out<<text;
         }
         pdffile.close();
-}*/
+}

@@ -51,7 +51,7 @@ private slots:
     void on_supp_commande_clicked();
     void on_afficher_commande_activated(const QModelIndex &index);
     void on_impdos_2_clicked();
-    //int creerPDF();
+    int creerPDF();
 
 
 

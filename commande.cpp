@@ -123,13 +123,12 @@ QSqlQueryModel * commande ::rechercherAdresse(QString adresse)
 }
 QString commande:: apercu_pdf()
  {
-    QString text="          ****COMMANDE POUR LA FAMILLE BOUAYED *****  \n \n\n" ;
-
+    QString text="          **** les commandes  ****      \n \n " ;
      QSqlQuery query ;
      QString i,x,z,a,b;
 
 
-     query.prepare("SELECT id_commande,id_fournisseur,id_produit,adresse,montant FROM commande where id_commande=:id_commande");
+      query.exec("select * from commande ");
       while (query.next())
       {
          i=query.value(0).toString();
