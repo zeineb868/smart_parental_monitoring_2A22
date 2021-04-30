@@ -530,8 +530,6 @@ painter.drawText(100,400,"Commande pour la famille Bouayed");
              b=query.value(4).toString();
 
             text += "\n Commande Id : "+i+"\n\n - Id fournisseur : "+ x+"\n - Id produit : "+ z+"\n - Adresse:"+a+"\n - Montant :"+b+"" ;
-
-
          }
         QString fileName = QFileDialog::getSaveFileName(this, "pdf", QString(), "*.pdf");
         if (!fileName.isEmpty())
